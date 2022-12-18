@@ -36,11 +36,19 @@ nav ul li{
     font-size: 14px;
 }
 
+li.empty{
+    width: 90px;
+    border-top: 1px solid black;
+    top: -5px;
+    position: relative;
+}
+
 nav ul{
     margin: 0, auto;
     text-align: center;
     padding: 30px;
 }
+
 
 header{
     top: 50px;
@@ -136,5 +144,3 @@ footer h2{
 .right-alignment{
     text-align: right;
 }
-
-
