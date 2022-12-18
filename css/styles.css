@@ -49,6 +49,15 @@ nav ul{
     padding: 30px;
 }
 
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav li a:hover{
+    text-decoration: underline;
+}
+
 
 header{
     top: 50px;
@@ -95,13 +104,13 @@ header ul li{
     margin-top: 40px;
     display: inline-block;
     border-radius: 20px;
+    transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 
-/* .button:hover{
-    background-color: rgb(186, 148, 195);
-    border: none;
+.button:hover{
+    background-color: black;
     color: white;
-} */
+}
 
 .intro-image{
     /* x-axis, y-axis, blurry, color */
