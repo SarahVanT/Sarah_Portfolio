@@ -8,7 +8,7 @@ body, ul{
     padding: 0;
 }
 
-h1,h2, .skills-list{
+h1,h2, h3, .skills-list{
     font-family: 'Inknut Antiqua', serif;
 }
 
@@ -69,7 +69,7 @@ header{
     /* stretching background to fill container */
     background-size: cover;
     /* position a background-image on y-axis */
-    background-position-y: -145px;
+    background-position-y: -125px;
 }
 
 h1{
@@ -82,7 +82,7 @@ h2{
     line-height: 130%;
 }
 
-h1, h2{
+h1, h2, h3{
     font-weight: normal;
 }
 
@@ -96,7 +96,7 @@ header ul li{
 }
 
 .button{
-    border: 1px solid black;
+    border: 1.80px solid black;
     text-decoration: none;
     color: black;
     padding: 10px 30px;
@@ -143,9 +143,18 @@ footer{
     margin: 100px;
 }
 
-footer h2{
-    font-size: 50px;
+footer h3{
+    font-size: 30px;
     margin-bottom: 100px;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover{
+    text-decoration: underline;
 }
 
 .right-alignment{
