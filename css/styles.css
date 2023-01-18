@@ -3,6 +3,29 @@ body{
     font-size: 15px;
 }
 
+@media only screen and (max-width: 600px){
+    header h1{
+        padding-top: 30px;
+        word-break: break-all;
+        font-size: 30px;
+    }
+
+    footer h3{
+        word-break: break-all;
+    }
+
+    footer p{
+        font-size: 15px;
+    }
+    
+    /* targets photos in project sections */
+    .mockup figure{
+        width: 200px;
+    }
+    
+
+}
+
 body, ul{
     margin: 0;
     padding: 0;
@@ -101,7 +124,7 @@ header ul li{
     color: black;
     padding: 10px 30px;
     /* margin top can't work w/out inline-block */
-    margin-top: 40px;
+    margin-top: 10px;
     display: inline-block;
     border-radius: 20px;
     transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
@@ -145,7 +168,7 @@ footer{
 
 footer h3{
     font-size: 30px;
-    margin-bottom: 100px;
+    margin: 0;
 }
 
 footer a{
