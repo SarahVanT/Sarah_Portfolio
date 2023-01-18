@@ -12,12 +12,19 @@ body{
 
     footer h3{
         word-break: break-all;
+        font-size: 20px;
     }
 
     footer p{
         font-size: 15px;
     }
     
+    .thank-you h3{
+        font-size: 20px;
+    }
+    .email h3{
+        font-size: 20px;
+    }
     /* targets photos in project sections */
     .mockup figure{
         width: 200px;
@@ -171,12 +178,12 @@ footer h3{
     margin: 0;
 }
 
-footer a{
+.email a{
     text-decoration: none;
     color: black;
 }
 
-footer a:hover{
+.email a:hover{
     text-decoration: underline;
 }
 
