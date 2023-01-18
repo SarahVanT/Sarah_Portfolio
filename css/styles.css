@@ -9,29 +9,54 @@ body{
         word-break: break-all;
         font-size: 30px;
     }
-
-    footer h3{
-        word-break: break-all;
-        font-size: 20px;
-    }
-
-    footer p{
-        font-size: 15px;
+    .responsive-footer{
+       margin: 64px; 
     }
     
     .thank-you h3{
+        word-break: break-all;
         font-size: 20px;
     }
     .email h3{
+        word-break: break-all;
         font-size: 20px;
     }
     /* targets photos in project sections */
     .mockup figure{
         width: 200px;
     }
-    
-
 }
+@media only screen and (min-width: 320px) and (max-width: 599px){
+    header{
+        text-align: center
+    }
+    .profile img{
+        width: 300px;
+    }
+    .intro a{
+        margin-bottom: 10px;
+    }
+    .project{
+        text-align: center;
+    }
+    .mockup figure{
+        display: block;
+        margin: 0 auto;
+    }
+    /* .padding{
+        padding: 40px;
+    }
+    .padding h2, p{
+        text-align: center;
+    } */
+    .responsive-footer h3{
+        font-size: 16px;
+    }
+    .responsive-footer p{
+        font-size: 10px;
+    }
+}
+
 
 body, ul{
     margin: 0;
