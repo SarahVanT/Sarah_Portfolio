@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+  }
 body{
     font-family: 'IBM Plex Mono', monospace;
     font-size: 15px;
@@ -54,6 +57,9 @@ body{
     }
     .responsive-footer p{
         font-size: 10px;
+    }
+    .right-alignment-md{
+        text-align: center;
     }
 }
 
@@ -212,6 +218,25 @@ footer h3{
     text-decoration: underline;
 }
 
-.right-alignment{
-    text-align: right;
+.right-alignment-md{
+    text-align: center;
 }
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    /* Make sure it does not overlap */
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background: black; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 10px; 
+    font-size: 18px; 
+  }
+  
+  /* #myBtn:hover {
+    background: #555; 
+  } */
